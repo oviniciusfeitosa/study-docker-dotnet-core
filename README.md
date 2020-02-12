@@ -23,6 +23,12 @@ dotnet run --project app -- 5
 dotnet publish -c Release app
 ```
 
+### Build Docker image
+
+```sh
+docker build -t myimage -f Dockerfile .
+```
+
 ## Solutions
 
 - When show the error **warning: CRLF will be replaced by LF in ...**
