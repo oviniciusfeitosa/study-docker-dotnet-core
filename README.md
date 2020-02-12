@@ -3,12 +3,25 @@ Study case of build app using .Net Core + Docker
 
 ## Steps
 
-- Run Project Without Docker
+### Execute project
+
+- Run Counter Project Without Docker
 
 ```sh
 dotnet run --project app
 ```
 
+or with time limit.
+
+```sh
+dotnet run --project app -- 5
+```
+
+### Publish Release
+
+```sh
+dotnet publish -c Release app
+```
 
 ## Solutions
 
