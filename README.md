@@ -29,6 +29,24 @@ dotnet publish -c Release app
 docker build -t myimage -f Dockerfile .
 ```
 
+### Create Docker container
+
+```sh
+docker create myimage --name docker_dotnet_core
+```
+
+### Start Docker container
+
+```sh
+docker start
+```
+
+### Show created containers
+
+```sh
+docker ps -a
+```
+
 ## Solutions
 
 - When show the error **warning: CRLF will be replaced by LF in ...**
